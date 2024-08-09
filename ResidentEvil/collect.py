@@ -91,4 +91,4 @@ for i in tqdm(links):
 # %%
 df = pd.DataFrame(data)
 df.to_parquet('dados_re.parquet', index=False)
-df.to_pickle('dados_re.pkl')
+df.to_pickle('dados_re.pkl')    
